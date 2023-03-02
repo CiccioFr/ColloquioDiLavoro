@@ -40,18 +40,18 @@ public class Candidato {
         setCognome(cognome);
     }
 
+    public void setAnagraficaCandidato() {
 
-    public Candidato setCandidato() {
         String nomeCandidato = JOptionPane.showInputDialog(null, "Inserisci il tuo nome");
         String cognomeCandidato = JOptionPane.showInputDialog(null, "Inserisci il tuo nome");
 
-        Candidato candidato = new Candidato(nomeCandidato, cognomeCandidato);
-        JOptionPane.showMessageDialog(null, "Benvenuto/a " + nomeCandidato, "CiccioFr s.r.l.", JOptionPane.PLAIN_MESSAGE, null);
+        setNome(nomeCandidato);
+        setCognome(cognomeCandidato);
 
-        return candidato;
+        JOptionPane.showMessageDialog(null, "Benvenuto/a " + nomeCandidato, "CiccioFr s.r.l.", JOptionPane.PLAIN_MESSAGE, null);
     }
 
     public void setCandidatura(){
-        this.ruolo = Candidatura.setCandidatura();
+        this.ruolo = Candidatura.setCandidatura(null);
     }
 }
