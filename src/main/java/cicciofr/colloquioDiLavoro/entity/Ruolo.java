@@ -1,19 +1,19 @@
-package main.java.cicciofr.colloquioDiLavoro;
+package main.java.cicciofr.colloquioDiLavoro.entity;
 
 public enum Ruolo {
-    SELEZIONA("Seleziona ruolo"),
-    IMPIEGATO("Impiegato/a d'ufficio"),
-    JAVA_DEVELOPER("Java Developer"),
-    PYTHON_DEVELOPER("Python Developer");
+    SELEZIONA(""),
+    IMPIEGATO(""),
+    JAVA_DEVELOPER(""),
+    PYTHON_DEVELOPER("");
 
     // di default sono static e final
     private String descrizione;
 
     // inizializzazione statica, in questo caso è proprio un di più
     static {
-        SELEZIONA.descrizione = "Seleziona ruolo";
+        SELEZIONA.descrizione = "Seleziona ruolo:";
         IMPIEGATO.descrizione = "Impiegato/a d'ufficio";
-        JAVA_DEVELOPER.descrizione = "Java Developer";
+        JAVA_DEVELOPER.descrizione = "Java";
         PYTHON_DEVELOPER.descrizione = "Python Developer";
     }
 

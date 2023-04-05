@@ -1,12 +1,18 @@
-package main.java.cicciofr.colloquioDiLavoro;
+package main.java.cicciofr.colloquioDiLavoro.entity;
 
-import javax.swing.JOptionPane;
+import javax.swing.*;
 
 public class Candidato {
 
-    private String nome = "";
-    private String cognome = "";
-    private String ruolo = "";
+    private static int conteggioCandidati;
+    private int id;
+    private String nome;
+    private String cognome;
+    private String ruolo;
+
+    public int getId() {
+        return id;
+    }
 
     public String getNome() {
         return nome;
@@ -33,25 +39,25 @@ public class Candidato {
     }
 
     public Candidato() {
+        id = ++conteggioCandidati;
+        setAnagraficaCandidato();
     }
 
     public Candidato(String nome, String cognome) {
+        id = ++conteggioCandidati;
         setNome(nome);
         setCognome(cognome);
     }
 
-    public void setAnagraficaCandidato() {
+    private void setAnagraficaCandidato() {
 
         String nomeCandidato = JOptionPane.showInputDialog(null, "Inserisci il tuo nome");
-        String cognomeCandidato = JOptionPane.showInputDialog(null, "Inserisci il tuo nome");
-
         setNome(nomeCandidato);
+
+        String cognomeCandidato = JOptionPane.showInputDialog(null, "Inserisci il tuo cognome");
         setCognome(cognomeCandidato);
 
-        JOptionPane.showMessageDialog(null, "Benvenuto/a " + nomeCandidato, "CiccioFr s.r.l.", JOptionPane.PLAIN_MESSAGE, null);
+//        JOptionPane.showMessageDialog(null, "Benvenuto/a " + nomeCandidato, "CiccioFr s.r.l.", JOptionPane.PLAIN_MESSAGE, null);
     }
 
-    public void setCandidatura(){
-        this.ruolo = Candidatura.setCandidatura(null);
-    }
 }
