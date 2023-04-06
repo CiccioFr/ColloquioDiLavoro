@@ -1,5 +1,6 @@
 package main.java.cicciofr.colloquioDiLavoro.model.gestioneFile;
 
+import javax.swing.*;
 import java.io.*;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -30,7 +31,9 @@ public class GestioneFile implements IGestioneFile {
 //                System.out.println(line);
             }
         } catch (IOException e) {
-            System.err.format("IOException: %s%n", e);
+//            System.err.format("IOException: %s%n", e);
+            JOptionPane.showMessageDialog(null, "File non trovato", "File not found", JOptionPane.WARNING_MESSAGE);
+            System.exit(-1);
         }
 
 //        File file = null;

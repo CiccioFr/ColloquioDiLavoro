@@ -19,7 +19,7 @@ public final class PosizioneLavorativa {
     }
 
     /**
-     * <p> Permette all'utente la selezione del ruolo lavorativo a cui aspira. </p>
+     * <p> Selezione del ruolo lavorativo a cui il candidato si propone. </p>
      * Carica un elenco di ruoli da un Enum e lo arricchisce con quelli disponibili in file esterno,
      * successivamente chiede all'utente di selezionare il ruolo ambito
      * @param candidato L'oggetto utente arricchito del ruolo scelto
@@ -68,7 +68,7 @@ public final class PosizioneLavorativa {
         // todo ......
 
         if (ruoliFonteEsterna.isEmpty()) {
-            ruoliFonteEsterna.add("Desolati, al momento non è in corso una ricerca attiva di personale");
+//            ruoliFonteEsterna.add("Desolati, al momento non è in corso una ricerca attiva di personale");
         }
 
         return ruoliFonteEsterna;
