@@ -1,8 +1,9 @@
 package main.java.cicciofr.colloquioDiLavoro.entity;
 
 import javax.swing.*;
+import java.io.Serializable;
 
-public class Candidato {
+public class Candidato implements Serializable {
 
     private static int conteggioCandidati;
     private int id;
