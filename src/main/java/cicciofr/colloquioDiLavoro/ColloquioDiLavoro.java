@@ -15,7 +15,7 @@ public class ColloquioDiLavoro {
         PosizioneLavorativa.setCandidatura(candidato);
 
         // TODO - Settaggio delle domande in base al ruolo scelto
-        Map<String, Questionario> quests = SettaggioDomande.setDomande(candidato.getRuolo(),"tutti", candidato.getNome());
+        Map<String, Questionario> quests = SettaggioDomande.setDomande(candidato.getRuolo(),"Generale", candidato.getNome());
 //        System.out.println("Domande settate dal main: " + domande);
 
         // TODO - impostare un ciclo per iterare tot domande
