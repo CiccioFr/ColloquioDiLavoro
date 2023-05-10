@@ -24,9 +24,7 @@ public class DomandaDialog extends JFrame {
          * l'avanzamento o il completamento? Devi modificare un controllo Swing e devi farlo dal thread di invio di eventi.
          * Quindi invokeLater.
          */
-        SwingUtilities.invokeLater(
-                () -> initComponents(argomento, domanda)
-        );
+        SwingUtilities.invokeLater( () -> initComponents(argomento, domanda) );
     }
 
     private void initComponents(String argomento, String domanda) {

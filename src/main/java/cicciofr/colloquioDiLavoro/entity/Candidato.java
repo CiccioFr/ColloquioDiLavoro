@@ -1,6 +1,7 @@
 package main.java.cicciofr.colloquioDiLavoro.entity;
 
-import javax.swing.*;
+import main.java.cicciofr.colloquioDiLavoro.viewSwing.AnagraficaAskPannel;
+
 import java.io.Serializable;
 
 public class Candidato implements Serializable {
@@ -51,14 +52,10 @@ public class Candidato implements Serializable {
     }
 
     private void setAnagraficaCandidato() {
+        String[] anagrafica = AnagraficaAskPannel.anagraficaCandidatoAskPannel();
 
-        String nomeCandidato = JOptionPane.showInputDialog(null, "Inserisci il tuo nome");
-        setNome(nomeCandidato);
-
-        String cognomeCandidato = JOptionPane.showInputDialog(null, "Inserisci il tuo cognome");
-        setCognome(cognomeCandidato);
-
-//        JOptionPane.showMessageDialog(null, "Benvenuto/a " + nomeCandidato, "CiccioFr s.r.l.", JOptionPane.PLAIN_MESSAGE, null);
+        setNome(anagrafica[0]);
+        setCognome(anagrafica[1]);
     }
 
 }

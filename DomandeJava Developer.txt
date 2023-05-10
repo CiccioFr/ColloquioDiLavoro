@@ -1,0 +1,84 @@
+## Generale
+1. Perchè scegiere Java come linguaggio di programmazione?
+- Possibile Risposta
+Perche le applicazioni sviluppate in java sono multipiattaforma: Interpretato il codice sorgente, e generato il programma oggetto (bytecode), quest'ultimo può essere compilato con una
+---
+1. Quali sono i principali vantaggi dell'utilizzo della programmazione ad oggetti?
+- Possibile Risposta
+Inserire Risposta
+---
+1. Quali sono le caratteristiche principali di Java come linguaggio di programmazione?
+- Possibile Risposta
+Inserire Risposta
+---
+1. Come funziona la gestione della memoria in Java? Quali sono i vantaggi e gli svantaggi della gestione automatica della memoria?
+- Possibile Risposta
+Inserire Risposta
+---
+## Funzionamento di Java
+1. Descrivi sinteticamente i passaggi sul codice, sino alla sua compilazione.
+- Possibile Risposta
+Inserire Risposta
+---
+1. Descrivi il processo di compilazione e di esecuzione di un programma Java.
+- Possibile Risposta
+Inserire Risposta
+---
+## Modificatori
+1. Cosa significa il modificatore di accesso "public"?
+- Possibile Risposta
+Il modificatore di accesso "public" rende un membro (metodo o variabile) accessibile da qualsiasi classe, sia all'interno dello stesso package che all'esterno.
+---
+1. Descrivi le differenze tra le classi astratte e le interfacce in Java.
+- Possibile Risposta
+Una classe astratta è una classe che non può essere istanziata direttamente, ma può essere usata come base per altre classi derivate. Può contenere sia metodi astratti che metodi concreti.
+Un'interfaccia, invece, è una collezione di metodi pubblici che possono essere implementati da diverse classi. Tutti i metodi in un'interfaccia sono pubblici e astratti per default.
+---
+## Eccezioni
+1. Cosa sono le eccezioni in Java?
+- Possibile Risposta
+Le eccezioni in Java sono oggetti che rappresentano situazioni anomale che possono verificarsi durante l'esecuzione del programma. Vengono sollevate quando si verifica un'eccezione e possono essere gestite con il costrutto try-catch.
+---
+1. Spiega la differenza tra un'eccezione controllata e una non controllata.
+- Possibile Risposta
+Inserire Risposta
+---
+## Strutture Dati
+1. Quali sono le principali differenze tra un array e una lista in Java?
+- Possibile Risposta
+Inserire Risposta
+---
+1. Cosa significa ereditarietà in Java? Come funziona l'ereditarietà multi-livello?
+- Possibile Risposta
+Inserire Risposta
+---
+1. Quali sono le eccezioni in Java? Come funziona il meccanismo delle eccezioni in Java?
+- Possibile Risposta
+Inserire Risposta
+---
+1. Come funzionano i thread in Java? Quali sono le classi principali utilizzate per la gestione dei thread?
+- Possibile Risposta
+Inserire Risposta
+---
+1. Quali sono le collezioni principali in Java? Quali sono le differenze tra ArrayList e LinkedList?
+- Possibile Risposta
+Inserire Risposta
+---
+1. Quali sono i design pattern più comuni in Java? Puoi descrivere il pattern Singleton?
+- Possibile Risposta
+Inserire Risposta
+---
+1. Come funziona la serializzazione in Java? Quali sono i vantaggi e gli svantaggi della serializzazione?
+- Possibile Risposta
+Inserire Risposta
+---
+1. Come funzionano i database
+- Possibile Risposta
+Inserire Risposta
+---
+1. Risolvi:
+int x = 5;
+System.out.println(x++ + ++x - x-- - --x);
+- Possibile Risposta
+Inserire Risposta
+---
